@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052768E156838556685132B2 /* libPods-AppDemoSSL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C76CAE9F0BF938D19B361E /* libPods-AppDemoSSL.a */; };
+		5582C0C11D072B00005A958F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5582C0C01D072B00005A958F /* main.m */; };
+		5582C0C41D072B00005A958F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5582C0C31D072B00005A958F /* AppDelegate.m */; };
+		5582C0C71D072B00005A958F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5582C0C61D072B00005A958F /* ViewController.m */; };
+		5582C0CA1D072B00005A958F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5582C0C81D072B00005A958F /* Main.storyboard */; };
+		5582C0CC1D072B00005A958F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5582C0CB1D072B00005A958F /* Assets.xcassets */; };
+		5582C0CF1D072B00005A958F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5582C0CD1D072B00005A958F /* LaunchScreen.storyboard */; };
+		5582C0D91D07334E005A958F /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 5582C0D81D07334E005A958F /* API.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5582C0BC1D072B00005A958F /* AppDemoSSL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDemoSSL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5582C0C01D072B00005A958F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5582C0C21D072B00005A958F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5582C0C31D072B00005A958F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5582C0C51D072B00005A958F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5582C0C61D072B00005A958F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5582C0C91D072B00005A958F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5582C0CB1D072B00005A958F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5582C0CE1D072B00005A958F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5582C0D01D072B00005A958F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5582C0D71D07334E005A958F /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = API.h; path = API/API.h; sourceTree = "<group>"; };
+		5582C0D81D07334E005A958F /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = API.m; path = API/API.m; sourceTree = "<group>"; };
+		7B8F53CEA6583560B267D4BB /* Pods-AppDemoSSL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDemoSSL.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppDemoSSL/Pods-AppDemoSSL.release.xcconfig"; sourceTree = "<group>"; };
+		90C76CAE9F0BF938D19B361E /* libPods-AppDemoSSL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppDemoSSL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65C992E52E75B5E8F66A443 /* Pods-AppDemoSSL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDemoSSL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppDemoSSL/Pods-AppDemoSSL.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5582C0B91D072B00005A958F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052768E156838556685132B2 /* libPods-AppDemoSSL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221412F70F9D06BEA490FB74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D65C992E52E75B5E8F66A443 /* Pods-AppDemoSSL.debug.xcconfig */,
+				7B8F53CEA6583560B267D4BB /* Pods-AppDemoSSL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BED9CD15688DA6889232A85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90C76CAE9F0BF938D19B361E /* libPods-AppDemoSSL.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5582C0B31D072B00005A958F = {
+			isa = PBXGroup;
+			children = (
+				5582C0BE1D072B00005A958F /* AppDemoSSL */,
+				5582C0BD1D072B00005A958F /* Products */,
+				221412F70F9D06BEA490FB74 /* Pods */,
+				4BED9CD15688DA6889232A85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5582C0BD1D072B00005A958F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5582C0BC1D072B00005A958F /* AppDemoSSL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5582C0BE1D072B00005A958F /* AppDemoSSL */ = {
+			isa = PBXGroup;
+			children = (
+				5582C0D61D073335005A958F /* API */,
+				5582C0C21D072B00005A958F /* AppDelegate.h */,
+				5582C0C31D072B00005A958F /* AppDelegate.m */,
+				5582C0C51D072B00005A958F /* ViewController.h */,
+				5582C0C61D072B00005A958F /* ViewController.m */,
+				5582C0C81D072B00005A958F /* Main.storyboard */,
+				5582C0CB1D072B00005A958F /* Assets.xcassets */,
+				5582C0CD1D072B00005A958F /* LaunchScreen.storyboard */,
+				5582C0D01D072B00005A958F /* Info.plist */,
+				5582C0BF1D072B00005A958F /* Supporting Files */,
+			);
+			path = AppDemoSSL;
+			sourceTree = "<group>";
+		};
+		5582C0BF1D072B00005A958F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5582C0C01D072B00005A958F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5582C0D61D073335005A958F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5582C0D71D07334E005A958F /* API.h */,
+				5582C0D81D07334E005A958F /* API.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5582C0BB1D072B00005A958F /* AppDemoSSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5582C0D31D072B00005A958F /* Build configuration list for PBXNativeTarget "AppDemoSSL" */;
+			buildPhases = (
+				7D428C065A0956B3F79E8C6F /* 📦 Check Pods Manifest.lock */,
+				5582C0B81D072B00005A958F /* Sources */,
+				5582C0B91D072B00005A958F /* Frameworks */,
+				5582C0BA1D072B00005A958F /* Resources */,
+				F3109A89D617ED51E66C6FC1 /* 📦 Embed Pods Frameworks */,
+				8B9D4461DE6BA48DEEE72F84 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppDemoSSL;
+			productName = AppDemoSSL;
+			productReference = 5582C0BC1D072B00005A958F /* AppDemoSSL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5582C0B41D072B00005A958F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Grupo Jaque";
+				TargetAttributes = {
+					5582C0BB1D072B00005A958F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5582C0B71D072B00005A958F /* Build configuration list for PBXProject "AppDemoSSL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5582C0B31D072B00005A958F;
+			productRefGroup = 5582C0BD1D072B00005A958F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5582C0BB1D072B00005A958F /* AppDemoSSL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5582C0BA1D072B00005A958F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5582C0CF1D072B00005A958F /* LaunchScreen.storyboard in Resources */,
+				5582C0CC1D072B00005A958F /* Assets.xcassets in Resources */,
+				5582C0CA1D072B00005A958F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D428C065A0956B3F79E8C6F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9D4461DE6BA48DEEE72F84 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppDemoSSL/Pods-AppDemoSSL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3109A89D617ED51E66C6FC1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppDemoSSL/Pods-AppDemoSSL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5582C0B81D072B00005A958F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5582C0C71D072B00005A958F /* ViewController.m in Sources */,
+				5582C0C41D072B00005A958F /* AppDelegate.m in Sources */,
+				5582C0D91D07334E005A958F /* API.m in Sources */,
+				5582C0C11D072B00005A958F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5582C0C81D072B00005A958F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5582C0C91D072B00005A958F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5582C0CD1D072B00005A958F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5582C0CE1D072B00005A958F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5582C0D11D072B00005A958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5582C0D21D072B00005A958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5582C0D41D072B00005A958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65C992E52E75B5E8F66A443 /* Pods-AppDemoSSL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppDemoSSL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grupojaque.AppDemoSSL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5582C0D51D072B00005A958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8F53CEA6583560B267D4BB /* Pods-AppDemoSSL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppDemoSSL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grupojaque.AppDemoSSL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5582C0B71D072B00005A958F /* Build configuration list for PBXProject "AppDemoSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5582C0D11D072B00005A958F /* Debug */,
+				5582C0D21D072B00005A958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5582C0D31D072B00005A958F /* Build configuration list for PBXNativeTarget "AppDemoSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5582C0D41D072B00005A958F /* Debug */,
+				5582C0D51D072B00005A958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5582C0B41D072B00005A958F /* Project object */;
+}

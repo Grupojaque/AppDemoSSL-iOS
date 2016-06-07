@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZzW-U3-m20">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="App Demo SSL" id="yDP-eQ-eO6"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cuéntame un secreto:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBb-kC-s1u">
+                                <rect key="frame" x="20" y="96" width="169" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1AI-CB-odR">
+                                <rect key="frame" x="20" y="127" width="317" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Respuesta:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-TO-oB2">
+                                <rect key="frame" x="20" y="182" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Aquí aparecerá la respuesta recibida desde el servidor..." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yei-Un-mJ3">
+                                <rect key="frame" x="20" y="211" width="374" height="505"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUQ-YH-I6K">
+                                <rect key="frame" x="352" y="127" width="42" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="GYm-lu-1oJ"/>
+                                    <constraint firstAttribute="height" constant="30" id="Qxg-0F-xHc"/>
+                                </constraints>
+                                <state key="normal" title="Enviar"/>
+                                <connections>
+                                    <action selector="clickOnSendButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nFs-GT-dW9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yei-Un-mJ3" firstAttribute="top" secondItem="Yg8-TO-oB2" secondAttribute="bottom" constant="8" id="0sf-G5-kUy"/>
+                            <constraint firstAttribute="trailing" secondItem="ZzW-U3-m20" secondAttribute="trailingMargin" id="7KG-C9-d0e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yei-Un-mJ3" secondAttribute="trailing" id="ABj-ZR-8aV"/>
+                            <constraint firstItem="ZzW-U3-m20" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ARh-Ma-NYm"/>
+                            <constraint firstItem="zUQ-YH-I6K" firstAttribute="leading" secondItem="1AI-CB-odR" secondAttribute="trailing" constant="15" id="B8a-WE-tXx"/>
+                            <constraint firstItem="zUQ-YH-I6K" firstAttribute="centerY" secondItem="1AI-CB-odR" secondAttribute="centerY" id="Cr8-km-ebG"/>
+                            <constraint firstItem="Yg8-TO-oB2" firstAttribute="top" secondItem="1AI-CB-odR" secondAttribute="bottom" constant="25" id="G2W-g0-QT5"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Yg8-TO-oB2" secondAttribute="leading" id="HJL-Zs-gkG"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="mBb-kC-s1u" secondAttribute="leading" id="Ive-uZ-4de"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yei-Un-mJ3" secondAttribute="bottom" constant="20" id="JYd-wF-gvU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zUQ-YH-I6K" secondAttribute="trailing" id="Si8-DE-JrE"/>
+                            <constraint firstItem="mBb-kC-s1u" firstAttribute="top" secondItem="ZzW-U3-m20" secondAttribute="bottom" constant="24" id="ToE-Ub-mRi"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="1AI-CB-odR" secondAttribute="leading" id="Ysz-hC-hFg"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="yei-Un-mJ3" secondAttribute="leading" id="mFa-iK-CtV"/>
+                            <constraint firstItem="1AI-CB-odR" firstAttribute="top" secondItem="mBb-kC-s1u" secondAttribute="bottom" constant="10" id="oke-Zo-KXi"/>
+                            <constraint firstItem="ZzW-U3-m20" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="qFM-K5-nYX"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="inputText" destination="1AI-CB-odR" id="6Eg-t7-bUW"/>
+                        <outlet property="responseText" destination="yei-Un-mJ3" id="8J6-a4-alP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="303"/>
+        </scene>
+    </scenes>
+</document>
